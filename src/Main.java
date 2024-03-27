@@ -152,3 +152,13 @@ public class Main {
 }
 
 // Here was Karl
+/*
+MVC
+Model
+- проверка пограничных значений в конструкторе
+Controller
+- correct data input
+View
+- extract part of Controller, complete reading of the user input
+- API, command line view
+ */

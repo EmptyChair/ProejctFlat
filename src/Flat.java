@@ -14,6 +14,22 @@ public class Flat implements Comparable<Flat> {
     private Furnish furnish; //CAN be null
     private House house; //can't be null
 
+    /*
+    //list 1 roman
+    id - 0
+    wor work work
+    id -1050265465 - file /flat( 1050265465)
+    sort by id
+    save list 1
+
+    roman load:list 1
+    id 1050265465 -read lat flat in the list1
+
+
+     */
+
+
+
     //FLAT CONSTRUCTOR - with furniture
     public Flat(String name, Integer area, Integer numberOfRooms, boolean balcony, Furnish furnish, House house) {
         this.id = 10115 * 100000 + Flat.count; //Berlin postal index + counter
